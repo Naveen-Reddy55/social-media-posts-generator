@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # social-media-posts-generator
 
 ## Description
@@ -89,3 +90,6 @@ And fills her heart with love and cheer.
 ```
 
 
+=======
+# social-media-posts-generator
+>>>>>>> origin/main
