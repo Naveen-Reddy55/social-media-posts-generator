@@ -7,8 +7,6 @@ This is a simple social media posts generator. It can create posts for any time 
 
 This can also create Stories, Poems, Songs based on an image :D (Yes, you heard it right!)
 
-#### Deployed API End Point - https://huggingface.co/spaces/Sravanth/Social-Media-Post-Generator
-
 But since our project uses huge models and we deployed on CPU instances, the UI gets disconned every time in hugging face. So we recommend using it as an API Endpoint in your own files/projects.
 
 ### Requirements to run as an API Endpoint 
