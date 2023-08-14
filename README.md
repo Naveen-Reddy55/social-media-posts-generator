@@ -18,7 +18,7 @@ pip install gradio_client pillow
 ```python
 from PIL import Image
 from gradio_client import Client
-client = Client("https://sravanth-social-media-post-generator.hf.space/")
+client = Client("")
 result = client.predict(
             "Memes",	# str (Option from: ['Memes', 'Jokes', 'Slogans', 'Inspirational Quotes']) in 'Category' Dropdown component
             "A kid crying just after returning from school",	# str  in 'Image Description/prompt' Textbox component
@@ -39,7 +39,7 @@ image.show()
 import requests
 img_url = 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/demo.jpg'
 
-client = Client("https://sravanth-social-media-post-generator.hf.space/")
+client = Client("")
 result = client.predict(
             "Poem",	# str (Option from: ['Story', 'Lyrics', 'Poem']) in 'Category' Dropdown component
             img_url,	# str (filepath or URL to image) in 'parameter_17' Image component
